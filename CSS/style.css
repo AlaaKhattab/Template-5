@@ -95,20 +95,78 @@ body{
 #slider #sliderText{
     position: absolute;
     right: 0px;
-    top: 30px;
-    width: 300px;
+    top: 100px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
 }
 
 
 #slider #sliderText p{
     font-size: 30px;
     color: white;
+    text-transform: uppercase;
 }
 
 #slider #sliderText p span{
     font-size: 32px;
     font-weight: bolder;
 }
+
+/************************************************************/
+/********************** apps ********************************/
+/************************************************************/
+#apps{
+    border: 1px solid red;
+    height: 300px;
+    padding-top: 50px;
+}
+
+#apps .appBlock{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+#apps .appBlock .appBlockImg{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+#apps .appBlock .appBlockImg:hover{
+    background-color: #00c7e8;
+}
+
+#apps .appBlock .appBlockImg img{
+    width: 100%;
+    height: 100%;
+}
+
+#apps .appBlock h3{
+    text-transform: uppercase;
+}
+#apps .appBlock h3:hover{
+    color: #00c7e8;
+}
+
+#apps .appBlock p{}
+
+
+
+
+
+
+
+
+
+
 
 
 
