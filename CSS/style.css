@@ -184,14 +184,13 @@ body{
 #gallery{
     margin: 0px;
     padding: 0px;
+    height: 400px;
 }
 
 #gallery div{
     float: left;
     background-color: #c9c9c9;;
 }
-
-
 
 #gallery .big{
     width: 40%;
@@ -254,6 +253,82 @@ body{
 #gallery .galleryLinks img:hover{
     cursor: pointer;
 }
+
+
+/************************************************************/
+/************************ team ******************************/
+/************************************************************/
+
+#team{
+    height: 350px;
+}
+
+#team .teamBlock{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+#team .teamBlock .teamBlockPic{
+    position: relative;
+}
+
+#team .teamBlock .teamBlockPic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#team .teamBlock .teamBlockPic p{
+    position: absolute;
+    top:90px;
+    left: 90px;
+    display: none;
+    color: white;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#team .teamBlock .teamBlockPic:hover>img{
+    opacity: .5;
+}
+
+#team .teamBlock .teamBlockPic:hover > p{
+    display: block;
+    cursor: pointer;
+}
+
+#team .teamBlock p.teamName{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
