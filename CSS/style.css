@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 2000px;
+    height: 3000px;
 }
 
 /************************************************************/
@@ -307,13 +307,55 @@ body{
     font-size: 20px;
 }
 
+/************************************************************/
+/*********************** mobile *****************************/
+#mobile{
+    height: 330px;
+}
 
+#mobile #mobileLeft{
+    float: left;
+    width: 200px;
+    margin-left: 200px;
+}
 
+#mobile #mobileLeft img{
+    width: 200px;
+    height: 300px;
+}
 
+#mobile #mobileRight{
+    float: left;
+    width: 800px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+}
 
+#mobile #mobileRight h1{
+    width: 600px;
+    margin:10px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
 
+#mobile #mobileRight #mobileParagraph{
+    width: 800px;
+    margin:10px auto;
+}
 
+#mobile #mobileRight #mobileParagraph #mobileParagraph1{
+    float: left;
+    width: 400px;
+}
 
+#mobile #mobileRight #mobileParagraph #mobileParagraph2{
+    float: left;
+    width: 300px;
+    margin-left: 30px;
+}
 
 
 
