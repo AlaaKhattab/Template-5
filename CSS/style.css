@@ -117,7 +117,6 @@ body{
 /********************** apps ********************************/
 /************************************************************/
 #apps{
-    border: 1px solid red;
     height: 220px;
     padding-top: 50px;
 }
@@ -164,7 +163,6 @@ body{
 /****************** featuredWorks ***************************/
 /************************************************************/
 #featuredWorks{
-    border: 1px solid red;
     height: 130px;
     text-align: center;
 }
@@ -178,5 +176,85 @@ body{
     margin: auto;
     margin-top: 10px;
 }
+
+
+/************************************************************/
+/*********************** gallery ****************************/
+/************************************************************/
+#gallery{
+    margin: 0px;
+    padding: 0px;
+}
+
+#gallery div{
+    float: left;
+    background-color: #c9c9c9;;
+}
+
+
+
+#gallery .big{
+    width: 40%;
+}
+
+#gallery .small{
+    width: 20%;
+}
+
+#gallery img{
+    margin: 0px;
+    padding: 0px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    height: 200px;
+    width: 100%
+}
+
+#gallery div:hover > .image{
+    opacity: .3;
+}
+
+
+#gallery .galleryLinks{
+    position: relative;
+}
+
+#gallery .galleryLinks img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 1;
+    display: none;
+    position: absolute;
+    top: 80px;
+}
+
+#gallery .small .galleryLinks .link{
+    left: 80px;
+}
+
+#gallery .small .galleryLinks .search{
+    left: 140px;
+}
+
+#gallery .big .galleryLinks .link{
+    left: 200px;
+}
+
+#gallery .big .galleryLinks .search{
+    left: 260px;
+}
+
+#gallery div:hover > .galleryLinks img{
+    display: block;
+    
+}
+#gallery .galleryLinks img:hover{
+    cursor: pointer;
+}
+
+
 
 
