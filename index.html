@@ -49,20 +49,38 @@
         <div id="slider">
             
             <div id="sliderImages">
-                <img src="Image/slider1.jpg">
-                <!--<img src="Image/slider2.jpg">
-                <img src="Image/slider3.jpg">-->
+                <img src="Image/slider1.jpg" class="slider">
+                <img src="Image/slider2.jpg" class="slider">
+                <img src="Image/slider3.jpg" class="slider">
             </div>
             
             <div id="sliderBullets">
-                <div id="bullet1" class="bullet"></div>
-                <div id="bullet2" class="bullet"></div>
-                <div id="bullet3" class="bullet"></div>
+                <div id="bullet1" class="bullet" onclick="currentSlide(1)"></div>
+                <div id="bullet2" class="bullet" onclick="currentSlide(2)"></div>
+                <div id="bullet3" class="bullet" onclick="currentSlide(3)"></div>
             </div>
             
             <div id="sliderText">
                 <p>Here You Can Type <span>Your Company Slogan</span></p>
             </div>
+            
+            <script>
+                var slideIndex = 1;
+                showSlide(slideIndex);
+                function currentSlide(n){
+                    slideIndex=n;
+                    showSlide(slideIndex);
+                }
+                function showSlide(n){
+                    var i;
+                    var slides = document.getElementsByClassName("slider");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+
+                    slides[slideIndex-1].style.display = "block";  
+                }
+            </script>
             
         </div>
         <!------------------------------------------------------------------------>
