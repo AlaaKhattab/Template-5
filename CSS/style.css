@@ -385,6 +385,68 @@ body{
     color: #00c8e6;
 }
 
+/************************************************************/
+/************************ info ******************************/
+/************************************************************/
+#info{
+    height: 300px;
+    background-color: #313332;
+    color: white;
+}
+
+#info h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#info .infoBlock{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+#info #aboutUs{}
+
+#info #getInTouch{
+    width: 370px;
+}
+
+#info #getInTouch .getInTouchTitle{
+    float: left;
+    width: 100px;
+    height: 40px;
+}
+
+#info #getInTouch .getInTouchData{
+    float: left;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#info #socialMedia{}
+
+            
+#info #socialMedia #socialMediaLinks{
+    margin-top: 20px;
+}
+
+
+#info #socialMedia #socialMediaLinks img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
 
 
 
