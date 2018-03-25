@@ -438,6 +438,11 @@ body{}
     width: 40px;
     height: 40px;
     margin-left: 5px;
+    opacity: .5;
+}
+
+#info #socialMedia #socialMediaLinks img:hover{
+    opacity: 1;
 }
 
 /************************************************************/
